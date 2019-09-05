@@ -3,16 +3,22 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
 
-const title = React.createElement(
-  "h1",
-  { id: "title", title: "This is a title." },
-  "About me"
+
+const summary = "Hi. My name is Greg and I'm a hobbiest programmer. I'm interested in things front/end/arduino related."
+
+const main = (
+  <body>
+    <h1>About me</h1>
+    <p>{ summary }</p>
+  </body>
 )
 
 ReactDOM.render(
-  title,
+  main,
   document.getElementById('root')
 )
+
+
 
 
 export default App;

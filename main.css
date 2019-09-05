@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "MS Dos";
+    src: url("fonts/Perfect\ DOS\ VGA\ 437\ Win.ttf")
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    font-family: "MS Dos";
+}
+
+
+
+.centre-wrap {
+    color: #AAAAA9;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.about-header {
+    font-family: monospace;
+    white-space: pre;
+    font-weight: bold;
+}
+
+.about {
+    font-family: "MS Dos";
+    line-height: 22px;
+}
+
+
+#github {
+    text-decoration: none;
+}
+
+a, a:link, a:visited {
+    color: #AAAAA9;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: #616161;
+    text-decoration: underline;
+}
+
