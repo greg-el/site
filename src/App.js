@@ -6,12 +6,15 @@ import App from './App';
 
 const summary = "Hi. My name is Greg and I'm a hobbiest programmer. I'm interested in things front/end/arduino related."
 
-const main = (
-  <body>
-    <h1>About me</h1>
-    <p>{ summary }</p>
-  </body>
-)
+function About() {
+  return (
+    <body>
+      <h1>About me</h1>
+      <p>{ summary }</p>
+    </body>
+  )
+}
+
 
 ReactDOM.render(
   main,
